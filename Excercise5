@@ -1,0 +1,43 @@
+def add(num1, num2):
+    res = num1 + num2
+    return res
+
+
+def sub(num1, num2):
+    res = num1 - num2
+    return res
+
+
+# Main
+alpha = 10
+beta = 20
+total = add(alpha, beta)
+print("Sum", total)
+diff = sub(alpha, beta)
+print("Diff", diff)
+
+Aus_inning1 = 250
+Aus_inning2 = 150
+Ind_inning1 = 220
+
+Aus_total = add(Aus_inning1,  Aus_inning2)
+Ind_total = sub(Aus_total,  Ind_inning1)
+
+Ind_need = add(Ind_total, 1)
+
+print("Run India need to win :", Ind_need)
+
+#step 2 fruit
+vegitable_price = 120
+fruit_price = 55
+
+total_price = add(vegitable_price, fruit_price)
+money_giventocashier = 200
+money_returned = sub(money_giventocashier, total_price)
+print("Money return from Cashier : ",money_returned)
+
+
+
+
+
+

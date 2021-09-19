@@ -1,0 +1,13 @@
+'''Program to reverse a sentence'''
+
+sentence = "India defeated England and Spain defeated France"
+word_list = sentence.split()
+print(word_list)
+reversed_list = reversed(word_list)
+
+reversed_sentence = " ".join(reversed_list)
+print(reversed_sentence)
+
+reversed_sentence = reversed_sentence.replace('defeated', 'lost to')
+
+print(reversed_sentence)
